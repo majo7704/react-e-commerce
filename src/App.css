@@ -5,6 +5,7 @@
   --mainGrey: #d9dddc;
   --mainDark: #232528;
   --mainYellow: #ffa400; 
+  --mainTurkus: #17a2b8;
 }
 
 body{
@@ -17,7 +18,7 @@ body{
   font-family: 'Permanent Marker',
   cursive;
   letter-spacing: 0.3rem;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 .text-blue{
   color:var(--mainBlue);
