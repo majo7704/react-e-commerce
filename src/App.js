@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {Route, Switch} from 'react-router-dom'
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './components/Navabar'
@@ -9,7 +8,7 @@ import Product from './components/Product'
 import Details from './components/Details'
 import Cart from './components/Cart'
 import PageNotFound from './components/PageNotFound'
-
+import Modal from './components/Modal'
 
 export default class App extends Component {
   render() {
@@ -23,7 +22,7 @@ export default class App extends Component {
           {/* if the router doesn't find the page that we're looking for it will display PageNotFound compponent */}
           <Route component={PageNotFound}></Route> 
         </Switch>
-
+      <Modal/>
       </>
     )
   }
